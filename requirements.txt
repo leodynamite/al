@@ -1,2 +1,27 @@
-# Mini App requirements
-# No additional dependencies needed for simple HTTP server
+# Core dependencies
+python-telegram-bot>=20.0
+pydantic>=2.0
+python-dotenv>=1.0
+httpx>=0.24.0
+
+# Database
+supabase>=1.0.0
+
+# File processing
+pandas>=2.0
+openpyxl>=3.0
+xlrd>=2.0
+python-docx>=1.0
+pdfminer.six>=2023.0
+PyPDF2>=3.0
+
+# LLM
+openai>=1.0
+
+# Utilities
+loguru>=0.7
+
+# Testing
+pytest>=7.0
+pytest-asyncio>=0.20
+pytest-mock>=3.0
