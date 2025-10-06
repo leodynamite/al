@@ -1,0 +1,2 @@
+# Mini App requirements
+# No additional dependencies needed for simple HTTP server
