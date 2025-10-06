@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: albot-mini-app
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python albot/mini_app/server.py
-    envVars:
-      - key: PORT
-        value: 8080
